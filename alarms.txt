@@ -1,0 +1,154 @@
+{
+  "alerts": [
+    {
+      "name": "Critical System Failure",
+      "type": "system_failure",
+      "priority": "high",
+      "solution": "Restart the affected system and investigate the root cause."
+    },
+    {
+      "name": "Network Outage",
+      "type": "network_outage",
+      "priority": "high",
+      "solution": "Check network configurations, routers, and switches. Restore connectivity as soon as possible."
+    },
+    {
+      "name": "Security Breach",
+      "type": "security_breach",
+      "priority": "critical",
+      "solution": "Isolate affected systems, investigate the breach, and apply necessary security patches. Reset passwords if necessary."
+    },
+    {
+      "name": "Application Downtime",
+      "type": "app_downtime",
+      "priority": "medium",
+      "solution": "Identify the cause of the downtime, fix the issue, and perform thorough testing before restoring the application."
+    },
+    {
+      "name": "Disk Space Exceeded",
+      "type": "disk_space_exceeded",
+      "priority": "medium",
+      "solution": "Free up disk space by removing unnecessary files, archives, or logs. Consider resizing partitions if needed."
+    },
+    {
+      "name": "Database Connection Failure",
+      "type": "db_connection_failure",
+      "priority": "high",
+      "solution": "Check database server status, credentials, and network connectivity. Re-establish the database connection."
+    },
+    {
+      "name": "Server Overload",
+      "type": "server_overload",
+      "priority": "high",
+      "solution": "Identify the source of the overload, optimize resource usage, and consider scaling resources if necessary."
+    },
+    {
+      "name": "Critical Software Bug",
+      "type": "software_bug",
+      "priority": "high",
+      "solution": "Identify and fix the bug. Deploy the updated software version and ensure thorough testing."
+    },
+    {
+      "name": "Hardware Failure",
+      "type": "hardware_failure",
+      "priority": "high",
+      "solution": "Replace or repair the faulty hardware component. Ensure proper backups to prevent data loss."
+    },
+    {
+      "name": "Power Outage",
+      "type": "power_outage",
+      "priority": "high",
+      "solution": "Check power sources, generators, and UPS systems. Restore power and ensure proper system shutdown and recovery."
+    },
+    {
+      "name": "Authentication Failure",
+      "type": "authentication_failure",
+      "priority": "medium",
+      "solution": "Investigate user credentials, LDAP, or identity provider issues. Reset passwords if needed and ensure secure authentication mechanisms."
+    },
+    {
+      "name": "Data Corruption",
+      "type": "data_corruption",
+      "priority": "medium",
+      "solution": "Identify corrupted data sources, restore from backups, and implement measures to prevent future corruption."
+    },
+    {
+      "name": "Service Unavailability",
+      "type": "service_unavailability",
+      "priority": "medium",
+      "solution": "Check service dependencies, restart services, and monitor for any cascading failures. Investigate and resolve the root cause."
+    },
+    {
+      "name": "Network Latency",
+      "type": "network_latency",
+      "priority": "medium",
+      "solution": "Analyze network performance, optimize configurations, and consider upgrading network infrastructure to reduce latency."
+    },
+    {
+      "name": "System Resource Exhaustion",
+      "type": "resource_exhaustion",
+      "priority": "high",
+      "solution": "Identify the resource(s) causing exhaustion (CPU, memory, etc.), optimize usage, and consider resource scaling."
+    },
+    {
+      "name": "Backup Failure",
+      "type": "backup_failure",
+      "priority": "medium",
+      "solution": "Investigate backup configurations, storage availability, and retry the backup process. Ensure regular testing of backup and restore procedures."
+    },
+    {
+      "name": "Unauthorized Access",
+      "type": "unauthorized_access",
+      "priority": "critical",
+      "solution": "Immediately isolate affected systems, revoke unauthorized access, and strengthen security measures. Conduct a thorough security audit."
+    },
+    {
+      "name": "Software License Expiry",
+      "type": "license_expiry",
+      "priority": "medium",
+      "solution": "Renew software licenses, update license keys, and ensure compliance with licensing agreements."
+    },
+    {
+      "name": "SSL Certificate Expiry",
+      "type": "ssl_expiry",
+      "priority": "high",
+      "solution": "Renew SSL certificates, update configurations, and monitor certificate expiration dates to prevent service disruptions."
+    },
+    {
+      "name": "Database Indexing Issue",
+      "type": "indexing_issue",
+      "priority": "medium",
+      "solution": "Analyze database indexing, optimize queries, and rebuild indexes if necessary to improve performance."
+    },
+    {
+      "name": "Memory Leak",
+      "type": "memory_leak",
+      "priority": "high",
+      "solution": "Identify the application causing the memory leak, fix the code issue, and restart the affected application or server."
+    },
+    {
+      "name": "API Rate Limit Exceeded",
+      "type": "api_rate_limit_exceeded",
+      "priority": "medium",
+      "solution": "Review API usage, increase rate limits if needed, and optimize API requests to stay within specified limits."
+    },
+    {
+      "name": "Software Configuration Error",
+      "type": "config_error",
+      "priority": "medium",
+      "solution": "Review software configurations, correct errors, and ensure consistency across environments."
+    },
+    {
+      "name": "User Data Loss",
+      "type": "user_data_loss",
+      "priority": "critical",
+      "solution": "Identify the cause of data loss, restore user data from backups, and implement measures to prevent future incidents."
+    },
+    {
+      "name": "DNS Resolution Failure",
+      "type": "dns_resolution_failure",
+      "priority": "high",
+      "solution": "Investigate DNS configurations, update DNS records, and ensure proper resolution to prevent service disruptions."
+    }
+  ]
+}
