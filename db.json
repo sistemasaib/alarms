@@ -7,6 +7,12 @@
       "solution": "Restart the affected system and investigate the root cause."
     },
     {
+      "name": "DNS Resolution Failure",
+      "type": "dns_resolution_failure",
+      "priority": "low",
+      "solution": "Investigate DNS configurations, update DNS records, and ensure proper resolution to prevent service disruptions."
+    },
+    {
       "name": "Network Outage",
       "type": "network_outage",
       "priority": "high",
@@ -148,6 +154,12 @@
       "name": "DNS Resolution Failure",
       "type": "dns_resolution_failure",
       "priority": "high",
+      "solution": "Investigate DNS configurations, update DNS records, and ensure proper resolution to prevent service disruptions."
+    },
+    {
+      "name": "DNS Resolution Failure",
+      "type": "dns_resolution_failure",
+      "priority": "low",
       "solution": "Investigate DNS configurations, update DNS records, and ensure proper resolution to prevent service disruptions."
     }
   ]
