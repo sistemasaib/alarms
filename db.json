@@ -7,7 +7,7 @@
       "solution": "Restart the affected system and investigate the root cause."
     },
     {
-      "name": "DNS Resolution Failure",
+      "name": "llllDNS Resolution Failure",
       "type": "dns_resolution_failure",
       "priority": "low",
       "solution": "Investigate DNS configurations, update DNS records, and ensure proper resolution to prevent service disruptions."
@@ -157,7 +157,7 @@
       "solution": "Investigate DNS configurations, update DNS records, and ensure proper resolution to prevent service disruptions."
     },
     {
-      "name": "DNS Resolution Failure",
+      "name": "hhjDNS Resolution Failure",
       "type": "dns_resolution_failure",
       "priority": "low",
       "solution": "Investigate DNS configurations, update DNS records, and ensure proper resolution to prevent service disruptions."
