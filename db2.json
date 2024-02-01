@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "name": "Widget A",
+      "weight": 0.5,
+      "barcode": "123456789012",
+      "type": "Electronics"
+    },
+    {
+      "name": "Gadget X",
+      "weight": 1.2,
+      "barcode": "234567890123",
+      "type": "Electronics"
+    },
+    {
+      "name": "Toolbox Set",
+      "weight": 2.5,
+      "barcode": "345678901234",
+      "type": "Tools"
+    },
+    {
+      "name": "Luxury Watch",
+      "weight": 0.1,
+      "barcode": "456789012345",
+      "type": "Fashion"
+    },
+    {
+      "name": "Fitness Tracker",
+      "weight": 0.3,
+      "barcode": "567890123456",
+      "type": "Electronics"
+    },
+    {
+      "name": "Power Drill",
+      "weight": 1.8,
+      "barcode": "678901234567",
+      "type": "Tools"
+    },
+    {
+      "name": "Coffee Maker",
+      "weight": 1.5,
+      "barcode": "789012345678",
+      "type": "Appliances"
+    },
+    {
+      "name": "Leather Wallet",
+      "weight": 0.2,
+      "barcode": "890123456789",
+      "type": "Fashion"
+    },
+    {
+      "name": "Desk Lamp",
+      "weight": 0.8,
+      "barcode": "901234567890",
+      "type": "Home Decor"
+    },
+    {
+      "name": "Cordless Vacuum",
+      "weight": 2.0,
+      "barcode": "012345678901",
+      "type": "Appliances"
+    },
+    {
+      "name": "Running Shoes",
+      "weight": 0.7,
+      "barcode": "1234567890123",
+      "type": "Footwear"
+    },
+    {
+      "name": "Cookware Set",
+      "weight": 3.5,
+      "barcode": "2345678901234",
+      "type": "Kitchen"
+    },
+    {
+      "name": "Smartphone",
+      "weight": 0.4,
+      "barcode": "3456789012345",
+      "type": "Electronics"
+    },
+    {
+      "name": "Backpack",
+      "weight": 0.9,
+      "barcode": "4567890123456",
+      "type": "Fashion"
+    },
+    {
+      "name": "Tool Belt",
+      "weight": 0.6,
+      "barcode": "5678901234567",
+      "type": "Tools"
+    },
+    {
+      "name": "Digital Camera",
+      "weight": 0.8,
+      "barcode": "6789012345678",
+      "type": "Electronics"
+    }
+  ]
+}
