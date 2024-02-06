@@ -73,18 +73,6 @@
       "solution": "Investigate user credentials, LDAP, or identity provider issues. Reset passwords if needed and ensure secure authentication mechanisms."
     },
     {
-      "name": "Data Corruption",
-      "type": "data_corruption",
-      "priority": "medium",
-      "solution": "Identify corrupted data sources, restore from backups, and implement measures to prevent future corruption."
-    },
-    {
-      "name": "Service Unavailability",
-      "type": "service_unavailability",
-      "priority": "medium",
-      "solution": "Check service dependencies, restart services, and monitor for any cascading failures. Investigate and resolve the root cause."
-    },
-    {
       "name": "Network Latency",
       "type": "network_latency",
       "priority": "medium",
@@ -131,12 +119,6 @@
       "type": "memory_leak",
       "priority": "high",
       "solution": "Identify the application causing the memory leak, fix the code issue, and restart the affected application or server."
-    },
-    {
-      "name": "API Rate Limit Exceeded",
-      "type": "api_rate_limit_exceeded",
-      "priority": "medium",
-      "solution": "Review API usage, increase rate limits if needed, and optimize API requests to stay within specified limits."
     },
     {
       "name": "Software Configuration Error",
