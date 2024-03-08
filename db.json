@@ -43,30 +43,6 @@
       "solution": "Check database server status, credentials, and network connectivity. Re-establish the database connection."
     },
     {
-      "name": "Server Overload",
-      "type": "server_overload",
-      "priority": "high",
-      "solution": "Identify the source of the overload, optimize resource usage, and consider scaling resources if necessary."
-    },
-    {
-      "name": "Critical Software Bug",
-      "type": "software_bug",
-      "priority": "high",
-      "solution": "Identify and fix the bug. Deploy the updated software version and ensure thorough testing."
-    },
-    {
-      "name": "Hardware Failure",
-      "type": "hardware_failure",
-      "priority": "high",
-      "solution": "Replace or repair the faulty hardware component. Ensure proper backups to prevent data loss."
-    },
-    {
-      "name": "Power Outage",
-      "type": "power_outage",
-      "priority": "high",
-      "solution": "Check power sources, generators, and UPS systems. Restore power and ensure proper system shutdown and recovery."
-    },
-    {
       "name": "Authentication Failure",
       "type": "authentication_failure",
       "priority": "medium",
@@ -77,12 +53,6 @@
       "type": "network_latency",
       "priority": "medium",
       "solution": "Analyze network performance, optimize configurations, and consider upgrading network infrastructure to reduce latency."
-    },
-    {
-      "name": "System Resource Exhaustion",
-      "type": "resource_exhaustion",
-      "priority": "high",
-      "solution": "Identify the resource(s) causing exhaustion (CPU, memory, etc.), optimize usage, and consider resource scaling."
     },
     {
       "name": "Backup Failure",
